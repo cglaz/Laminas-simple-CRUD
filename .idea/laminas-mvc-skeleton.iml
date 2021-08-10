@@ -38,6 +38,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-hydrator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-filter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-i18n" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -33,6 +33,7 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-hydrator" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-filter" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-i18n" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
