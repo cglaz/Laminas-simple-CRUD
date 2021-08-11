@@ -27,6 +27,15 @@ class Album implements InputFilterAwareInterface
         $this->title = !empty($data['title']) ? $data['title'] : null;
     }
 
+    public function getArrayCopy()
+    {
+        return [
+            'id' => $this->id,
+            'artist' => $this->artist,
+            'title' => $this->title,
+        ];
+    }
+
     public function setInputFilter(InputFilterInterface $inputFilter)
     {
         throw new DomainException(sprintf(

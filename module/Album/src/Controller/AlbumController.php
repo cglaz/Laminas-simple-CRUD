@@ -89,7 +89,7 @@ class AlbumController extends AbstractActionController
         } catch (\Exception $e) {
         }
 
-        // Redirect to album list
+
         return $this->redirect()->toRoute('album', ['action' => 'index']);
     }
 
