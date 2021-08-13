@@ -1,0 +1,25 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <?php
+
+        foreach ($this->pages as $key => $page): ?>
+            <?php
+
+            if ($key < count($this->pages) - 1):
+                ?>
+                <li class="breadcrumb-item">
+                    <a href="<?= $page->getHref() ?>">
+                        <?= $page->getLabel() ?>
+                    </a>
+                </li>
+            <?php
+
+            else:
+                ?>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <?= $page->getLabel() ?>
+                </li>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </ol>
+</nav>

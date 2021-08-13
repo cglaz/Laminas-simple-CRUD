@@ -18,7 +18,9 @@
         "laminas/laminas-db": "^2.12",
         "laminas/laminas-form": "^3.0",
         "laminas/laminas-view": "^2.12",
-        "laminas/laminas-i18n": "^2.11"
+        "laminas/laminas-i18n": "^2.11",
+        "laminas/laminas-cli": "^1.1",
+        "laminas/laminas-navigation": "^2.11"
     },
     "autoload": {
         "psr-4": {
