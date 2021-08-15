@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.3 || ~8.0.0",
         "laminas/laminas-component-installer": "^2.4",
-        "laminas/laminas-development-mode": "^3.2",
+        "laminas/laminas-development-mode": "^3.3",
         "laminas/laminas-skeleton-installer": "^0.3",
         "laminas/laminas-mvc": "^3.1.1",
         "laminas/laminas-db": "^2.12",
@@ -20,12 +20,15 @@
         "laminas/laminas-view": "^2.12",
         "laminas/laminas-i18n": "^2.11",
         "laminas/laminas-cli": "^1.1",
-        "laminas/laminas-navigation": "^2.11"
+        "laminas/laminas-navigation": "^2.11",
+        "laminas/laminas-paginator": "^2.10",
+        "laminas/laminas-mvc-i18n": "^1.2"
     },
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "Album\\": "module/Album/src/"
+            "Album\\": "module/Album/src/",
+            "Blog\\": "module/Blog/src/"
         }
     },
     "autoload-dev": {
@@ -57,5 +60,8 @@
         "development-status": "Detail whether or not the application is in development mode.",
         "serve": "Start the built-in PHP web server and serve the application.",
         "test": "Run unit tests."
+    },
+    "require-dev": {
+        "laminas/laminas-developer-tools": "^2.1"
     }
 }

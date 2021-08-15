@@ -48,6 +48,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-navigation" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-paginator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-mvc-i18n" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-developer-tools" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

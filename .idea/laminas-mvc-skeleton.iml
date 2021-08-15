@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/module/Album/src" isTestSource="false" packagePrefix="Album\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/Blog/src" isTestSource="false" packagePrefix="Blog\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-uri" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-router" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-development-mode" />
@@ -53,6 +54,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-navigation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-paginator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-mvc-i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-developer-tools" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
