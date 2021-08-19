@@ -75,7 +75,7 @@ class LaminasDbSqlRepository implements PostRepositoryInterface
         $post = $resultSet->current();
 
         if (! $post) {
-            throw new InvalidArgumentException(sprintf(
+            throw new \InvalidArgumentException(sprintf(
                 'Blog post with identifier "%s" not found.',
                 $id
             ));
