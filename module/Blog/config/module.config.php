@@ -9,10 +9,11 @@ use Laminas\ServiceManager\Factory\InvokableFactory;
 return [
     'service_manager' => [
         'aliases' => [
-            Model\PostRepositoryInterface::class => Model\PostRepository::class,
+            Model\PostRepositoryInterface::class => Model\LaminasDbSqlRepository::class,
         ],
         'factories' => [
             Model\PostRepository::class => InvokableFactory::class,
+            Model\LaminasDbSqlRepository::class => Factory\LaminasDbSqlRepositoryFactory::class,
         ],
     ],
     'controllers' => [
